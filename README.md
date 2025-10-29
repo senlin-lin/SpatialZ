@@ -1,4 +1,7 @@
 
+The implementations of **SpatialZ**, as well as tutorials, can be found at [https://spatialz-tutorial.readthedocs.io/en/latest/](https://spatialz-tutorial.readthedocs.io/en/latest/).
+
+
 # 1 Installation Guide
 This document provides detailed instructions for installing and setting up the SpatialZ project. 
 Follow the steps below to configure your environment and install dependencies.
@@ -61,5 +64,8 @@ sudo docker run --gpus all -p 8888:8888 linsenlin/spatialz:latest
 After launching the Docker container, users can access Jupyter Notebook by navigating to port 8888 on the server. If the server's IP address is 'server_ip', simply enter the following URL in a web browser:
 
 `http://server_ip:8888`
+
+
+**Reference:** Lin, S., Wang, Z., Cui, Y., Zou, Q., Han, C., Yan, R., … & Yuan, Z. (2024). *Bridging the Dimensional Gap from Planar Spatial Transcriptomics to 3D Cell Atlases*. *bioRxiv*, 2024-12.
 
  
